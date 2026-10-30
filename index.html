@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Juan Antonio Montalbán Vidal</title>
+  <meta name="description" content="Mathematician trained at the University of Seville and the University of Warwick, interested in applied mathematics and formal proof.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main">
+      <a class="brand" href="#top">Juan Antonio Montalbán</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle menu">
+        <span></span><span></span>
+      </button>
+      <!-- To add a section to the menu, add a <li> here whose href matches the section's id. -->
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="top" class="container">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <img class="avatar" src="https://avatars.githubusercontent.com/u/148797929?v=4" alt="Juan Antonio Montalbán Vidal" width="112" height="112">
+      <p class="eyebrow">Mathematician</p>
+      <h1>Juan Antonio Montalbán Vidal</h1>
+      <p class="lead">Mathematician trained at the University of Seville and the University of Warwick, with a strong interest in applied mathematics and formally verified proofs.</p>
+      <ul class="links">
+        <li><a class="button primary" href="https://github.com/juanan27">GitHub</a></li>
+        <li><a class="button todo" href="#">LinkedIn</a></li>
+        <li><a class="button todo" href="#">Email</a></li>
+        <li><a class="button todo" href="#">CV (PDF)</a></li>
+      </ul>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section id="about" class="section">
+      <h2>About</h2>
+      <div class="section-body">
+        <p>I'm a mathematician who studied at the University of Seville and the University of Warwick. I'm drawn to applied mathematics, and to the question of how far rigorous mathematics can be checked by a computer: I've worked on formalising analysis in the Lean theorem prover.</p>
+        <p class="todo">Add a few sentences about what you're doing now, what you're looking for, and what you enjoy working on.</p>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="section-body cards">
+
+        <article class="card">
+          <h3><a href="https://github.com/juanan27/MA4N1">Cauchy's Theorem in Lean</a></h3>
+          <p>Group project for MA4N1 at the University of Warwick: a formal proof of Cauchy's theorem on a triangle using Goursat's method, built on Mathlib. Includes new definitions of paths, path integrals and triangles, and a fundamental theorem of calculus for complex path integrals.</p>
+          <ul class="tags"><li>Lean 4</li><li>Mathlib</li><li>Complex analysis</li></ul>
+        </article>
+
+        <article class="card">
+          <h3><a href="https://github.com/juanan27/LeanCourse24">Bonn Lean Course 2024/25</a></h3>
+          <p>My work through the University of Bonn's winter 2024/25 course on formalising mathematics in Lean.</p>
+          <ul class="tags"><li>Lean 4</li><li>Mathlib</li><li>Formal proof</li></ul>
+        </article>
+
+        <!-- Copy an <article class="card"> block above to add a project. -->
+        <article class="card todo">
+          <h3>Your next project</h3>
+          <p>Title, a one- or two-sentence description, a link, and a few tags.</p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ============ EDUCATION ============ -->
+    <section id="education" class="section">
+      <h2>Education</h2>
+      <div class="section-body">
+        <ul class="timeline">
+          <li>
+            <div class="item-head">
+              <h3 class="todo">Degree name</h3>
+              <span class="when todo">Years</span>
+            </div>
+            <p class="where">University of Warwick</p>
+          </li>
+          <li>
+            <div class="item-head">
+              <h3 class="todo">Degree name</h3>
+              <span class="when todo">Years</span>
+            </div>
+            <p class="where">University of Seville</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <div class="section-body">
+        <div class="skill-group">
+          <h3>Mathematics</h3>
+          <ul class="tags"><li>Applied mathematics</li><li>Analysis</li><li>Formal proof</li></ul>
+        </div>
+        <div class="skill-group">
+          <h3>Tools</h3>
+          <ul class="tags"><li>Lean 4</li><li>Mathlib</li><li>Git</li><li class="todo">Add languages &amp; tools</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <div class="section-body">
+        <p>The best way to reach me is by email. You can also find my work on <a href="https://github.com/juanan27">GitHub</a>.</p>
+        <p><a class="button todo" href="#">your.email@example.com</a></p>
+      </div>
+    </section>
+
+    <!--
+      ============ NEW SECTION TEMPLATE ============
+      1. Copy this block above this comment and change the id and heading.
+      2. Add <li><a href="#your-id">Your heading</a></li> to the nav at the top.
+
+    <section id="your-id" class="section">
+      <h2>Your heading</h2>
+      <div class="section-body">
+        <p>Content goes here.</p>
+      </div>
+    </section>
+    -->
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      &copy; <span id="year"></span> Juan Antonio Montalbán Vidal
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
