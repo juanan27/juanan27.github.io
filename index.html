@@ -3,152 +3,104 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Juan Antonio Montalbán Vidal</title>
-  <meta name="description" content="Mathematician trained at the University of Seville and the University of Warwick, interested in applied mathematics and formal proof.">
+  <title>Juan Antonio Montalbán Vidal · juamonvid</title>
+  <meta name="description" content="Juan Antonio Montalbán Vidal — MSc candidate in Mathematics, working on scientific machine learning, PINNs and applied AI.">
+  <meta name="theme-color" content="#faf9f6">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/main.js" defer></script>
 </head>
 <body>
-
+  <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
-    <nav class="nav container" aria-label="Main">
-      <a class="brand" href="#top">Juan Antonio Montalbán</a>
-      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle menu">
-        <span></span><span></span>
-      </button>
-      <!-- To add a section to the menu, add a <li> here whose href matches the section's id. -->
+    <nav class="container nav" aria-label="Main navigation">
+      <a class="brand" href="index.html" aria-label="juamonvid — Home">juamonvid<span aria-hidden="true">.</span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">Menu <span aria-hidden="true">+</span></button>
       <ul class="nav-links" id="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="index.html" aria-current="page">About</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="cv.html">CV</a></li>
       </ul>
     </nav>
   </header>
+  <main id="main" class="container">
 
-  <main id="top" class="container">
-
-    <!-- ============ HERO ============ -->
-    <section class="hero">
-      <img class="avatar" src="https://avatars.githubusercontent.com/u/148797929?v=4" alt="Juan Antonio Montalbán Vidal" width="112" height="112">
-      <p class="eyebrow">Mathematician</p>
-      <h1>Juan Antonio Montalbán Vidal</h1>
-      <p class="lead">Mathematician trained at the University of Seville and the University of Warwick, with a strong interest in applied mathematics and formally verified proofs.</p>
-      <ul class="links">
-        <li><a class="button primary" href="https://github.com/juanan27">GitHub</a></li>
-        <li><a class="button todo" href="#">LinkedIn</a></li>
-        <li><a class="button todo" href="#">Email</a></li>
-        <li><a class="button todo" href="#">CV (PDF)</a></li>
-      </ul>
-    </section>
-
-    <!-- ============ ABOUT ============ -->
-    <section id="about" class="section">
-      <h2>About</h2>
-      <div class="section-body">
-        <p>I'm a mathematician who studied at the University of Seville and the University of Warwick. I'm drawn to applied mathematics, and to the question of how far rigorous mathematics can be checked by a computer: I've worked on formalising analysis in the Lean theorem prover.</p>
-        <p class="todo">Add a few sentences about what you're doing now, what you're looking for, and what you enjoy working on.</p>
-      </div>
-    </section>
-
-    <!-- ============ PROJECTS ============ -->
-    <section id="projects" class="section">
-      <h2>Projects</h2>
-      <div class="section-body cards">
-
-        <article class="card">
-          <h3><a href="https://github.com/juanan27/MA4N1">Cauchy's Theorem in Lean</a></h3>
-          <p>Group project for MA4N1 at the University of Warwick: a formal proof of Cauchy's theorem on a triangle using Goursat's method, built on Mathlib. Includes new definitions of paths, path integrals and triangles, and a fundamental theorem of calculus for complex path integrals.</p>
-          <ul class="tags"><li>Lean 4</li><li>Mathlib</li><li>Complex analysis</li></ul>
-        </article>
-
-        <article class="card">
-          <h3><a href="https://github.com/juanan27/LeanCourse24">Bonn Lean Course 2024/25</a></h3>
-          <p>My work through the University of Bonn's winter 2024/25 course on formalising mathematics in Lean.</p>
-          <ul class="tags"><li>Lean 4</li><li>Mathlib</li><li>Formal proof</li></ul>
-        </article>
-
-        <!-- Copy an <article class="card"> block above to add a project. -->
-        <article class="card todo">
-          <h3>Your next project</h3>
-          <p>Title, a one- or two-sentence description, a link, and a few tags.</p>
-        </article>
-
-      </div>
-    </section>
-
-    <!-- ============ EDUCATION ============ -->
-    <section id="education" class="section">
-      <h2>Education</h2>
-      <div class="section-body">
-        <ul class="timeline">
-          <li>
-            <div class="item-head">
-              <h3 class="todo">Degree name</h3>
-              <span class="when todo">Years</span>
-            </div>
-            <p class="where">University of Warwick</p>
-          </li>
-          <li>
-            <div class="item-head">
-              <h3 class="todo">Degree name</h3>
-              <span class="when todo">Years</span>
-            </div>
-            <p class="where">University of Seville</p>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- ============ SKILLS ============ -->
-    <section id="skills" class="section">
-      <h2>Skills</h2>
-      <div class="section-body">
-        <div class="skill-group">
-          <h3>Mathematics</h3>
-          <ul class="tags"><li>Applied mathematics</li><li>Analysis</li><li>Formal proof</li></ul>
+    <section class="hero" aria-labelledby="intro-title">
+      <aside class="portrait-block" aria-label="Profile">
+        <!-- Replace the monogram with a portrait when a photograph is supplied. -->
+        <div class="portrait monogram" aria-hidden="true">jmv<span>.</span></div>
+        <p class="portrait-caption">Juan Antonio Montalbán Vidal<br><span>Seville, Spain</span></p>
+      </aside>
+      <div class="hero-copy">
+        <p class="eyebrow">Mathematics · Scientific machine learning</p>
+        <h1 id="intro-title">Juan Antonio<br>Montalbán Vidal<span class="accent">.</span></h1>
+        <p class="lead">Mathematical research and applied AI, from scientific computing to tools for real-world data.</p>
+        <div class="intro-text">
+          <p>I'm an MSc candidate in Mathematics at the University of Seville. My thesis explores physics-informed neural networks (PINNs) and computer-assisted analysis, with applications to the De Gregorio model.</p>
+          <p>Alongside research, I've worked in data and AI engineering at Sevilla FC and Keller Williams GSI. I contribute to The AI Alliance's conversational BI project, connecting natural-language questions with structured data.</p>
         </div>
-        <div class="skill-group">
-          <h3>Tools</h3>
-          <ul class="tags"><li>Lean 4</li><li>Mathlib</li><li>Git</li><li class="todo">Add languages &amp; tools</li></ul>
+        <div class="text-links">
+          <a href="mailto:juananmv2013@gmail.com">Email <span aria-hidden="true">↗</span></a>
+          <a href="https://github.com/juanan27">GitHub <span aria-hidden="true">↗</span></a>
+          <a href="assets/documents/juan-antonio-montalban-vidal-cv.pdf" download>Download CV <span aria-hidden="true">↓</span></a>
         </div>
       </div>
     </section>
-
-    <!-- ============ CONTACT ============ -->
-    <section id="contact" class="section">
-      <h2>Contact</h2>
-      <div class="section-body">
-        <p>The best way to reach me is by email. You can also find my work on <a href="https://github.com/juanan27">GitHub</a>.</p>
-        <p><a class="button todo" href="#">your.email@example.com</a></p>
+    <section class="section-grid" aria-labelledby="selected-title">
+      <div class="section-heading">
+        <p class="eyebrow">Selected work</p>
+        <h2 id="selected-title">Ideas in practice.</h2>
+        <a class="section-link" href="projects.html">All projects <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="work-list">
+        <article class="work-item">
+          <span class="work-number" aria-hidden="true">01</span>
+          <div>
+            <p class="item-kicker">Research · MSc thesis</p>
+            <h3><a href="research.html#pinns">Physics-informed neural networks <span aria-hidden="true">↗</span></a></h3>
+            <p>Using PINNs to guide the search for an unstable eigenvalue in the De Gregorio model, followed by analytical validation.</p>
+            <ul class="tags" aria-label="Topics"><li>Scientific ML</li><li>Mathematical analysis</li></ul>
+          </div>
+        </article>
+        <article class="work-item">
+          <span class="work-number" aria-hidden="true">02</span>
+          <div>
+            <p class="item-kicker">Open source · The AI Alliance</p>
+            <h3><a href="projects.html#conversational-bi">Governed conversational BI <span aria-hidden="true">↗</span></a></h3>
+            <p>A collaborative reference implementation for natural-language data querying, with ontology mapping, validation and explicit confidence levels.</p>
+            <ul class="tags" aria-label="Topics"><li>AI engineering</li><li>Data systems</li></ul>
+          </div>
+        </article>
+        <article class="work-item">
+          <span class="work-number" aria-hidden="true">03</span>
+          <div>
+            <p class="item-kicker">Applied machine learning · Master's project</p>
+            <h3><a href="projects.html#tennis">ATP tennis analytics &amp; AI <span aria-hidden="true">↗</span></a></h3>
+            <p>From 28,000+ matches to predictive models, a Power BI dashboard and an AI assistant for exploring tennis data.</p>
+            <ul class="tags" aria-label="Topics"><li>XGBoost</li><li>Sports analytics</li></ul>
+          </div>
+        </article>
       </div>
     </section>
-
-    <!--
-      ============ NEW SECTION TEMPLATE ============
-      1. Copy this block above this comment and change the id and heading.
-      2. Add <li><a href="#your-id">Your heading</a></li> to the nav at the top.
-
-    <section id="your-id" class="section">
-      <h2>Your heading</h2>
-      <div class="section-body">
-        <p>Content goes here.</p>
+    <section class="section-grid background-section" aria-labelledby="background-title">
+      <div class="section-heading">
+        <p class="eyebrow">Experience &amp; education</p>
+        <h2 id="background-title">Across research and industry.</h2>
+      </div>
+      <div class="section-content">
+        <p>My background combines mathematics at Seville, Warwick and Bonn with a master's in Advanced Data Analytics, Big Data and AI at Instituto de Estudios Cajasol.</p>
+        <p>In industry, I've built conversational tools for football scouting and agent workflows for real estate. In research, I work with scientific computing, mathematical analysis and formalisation in Lean.</p>
+        <a class="section-link" href="cv.html">View curriculum vitae <span aria-hidden="true">→</span></a>
       </div>
     </section>
-    -->
-
   </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      &copy; <span id="year"></span> Juan Antonio Montalbán Vidal
+  <footer class="site-footer container">
+    <p>© <span data-year>2026</span> Juan Antonio Montalbán Vidal</p>
+    <div class="footer-links">
+      <a href="mailto:juananmv2013@gmail.com">Email <span aria-hidden="true">↗</span></a>
+      <a href="https://github.com/juanan27">GitHub <span aria-hidden="true">↗</span></a>
     </div>
   </footer>
-
-  <script src="assets/js/main.js"></script>
 </body>
 </html>

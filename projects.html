@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projects — Juan Antonio Montalbán Vidal · juamonvid</title>
+  <meta name="description" content="Selected work in conversational BI, tennis analytics, football scouting, AI engineering and mathematical formalisation.">
+  <meta name="theme-color" content="#faf9f6">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="container nav" aria-label="Main navigation">
+      <a class="brand" href="index.html" aria-label="juamonvid — Home">juamonvid<span aria-hidden="true">.</span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">Menu <span aria-hidden="true">+</span></button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">About</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="projects.html" aria-current="page">Projects</a></li>
+        <li><a href="cv.html">CV</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main id="main" class="container">
+
+    <header class="page-intro">
+      <p class="eyebrow">Projects</p>
+      <h1>From ideas to implementation<span class="accent">.</span></h1>
+      <p class="lead">Applied machine learning, data tools and mathematical software. A selection of my work, with the context and my contribution to each project.</p>
+      <ul class="page-index" aria-label="Project topics">
+        <li><a href="#conversational-bi">Conversational BI</a></li>
+        <li><a href="#tennis">Tennis analytics</a></li>
+        <li><a href="#scouting">Football scouting</a></li>
+        <li><a href="#cauchy">Lean</a></li>
+      </ul>
+    </header>
+    <article class="project-detail" id="conversational-bi" aria-labelledby="bi-title">
+      <aside class="project-meta">
+        <p class="eyebrow">01 / Open source</p><p>The AI Alliance</p><p>Collaborative project · 2026</p>
+      </aside>
+      <div class="prose">
+        <h2 id="bi-title">Governed conversational BI</h2>
+        <p>I co-developed a conversational business intelligence proof of concept with researchers from IBM Research within The AI Alliance, combining domain validation, ontology mapping and explicit confidence levels for natural-language SQL queries.</p>
+        <h3>My contribution</h3>
+        <p>I owned the ontology layer: designing its hierarchy and search index, and implementing LLM-assisted mapping from user terminology to structured data concepts. I also coordinated GitHub contributions across institutions and contributed to the open-source demonstrator.</p>
+        <h3>Technical writing</h3>
+        <p>I co-authored <em>Building a governed conversational BI agent: Lessons from a retail PoC</em>, published by The AI Alliance in June 2026.</p>
+        <ul class="tags" aria-label="Topics"><li>Python</li><li>Ontology mapping</li><li>Conversational AI</li></ul>
+        <div class="text-links">
+          <a href="https://github.com/The-AI-Alliance/conversational_bi">Source code <span aria-hidden="true">↗</span></a>
+          <a href="https://thealliance.ai/blog/building-a-governed-conversational-bi-agent">Technical article <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </article>
+    <article class="project-detail" id="tennis" aria-labelledby="tennis-title">
+      <aside class="project-meta">
+        <p class="eyebrow">02 / Applied machine learning</p><p>Instituto de Estudios Cajasol</p><p>Master's project · 2026</p>
+      </aside>
+      <div class="prose">
+        <h2 id="tennis-title">ATP tennis analytics &amp; AI</h2>
+        <p>A project spanning data engineering, predictive modelling and interactive exploration of professional tennis.</p>
+        <h3>Data and prediction</h3>
+        <p>I engineered 86 features from more than 28,000 ATP matches, using prior-match information such as surface-specific Elo and recent performance statistics. I built Python ETL pipelines and relational data models, then trained XGBoost models for prediction.</p>
+        <p>I compared tournament predictions with Elo baselines, examining probability calibration, performance by round and limitations for players with sparse match histories.</p>
+        <h3>Exploration and interaction</h3>
+        <p>I explored player profiles through PCA and k-means clustering, created a six-page Power BI dashboard, and developed an AI assistant with 13 MCP tools for data exploration and access to model predictions.</p>
+        <ul class="tags" aria-label="Topics"><li>Python</li><li>XGBoost</li><li>Power BI</li><li>MCP</li></ul>
+      </div>
+    </article>
+    <article class="project-detail" id="scouting" aria-labelledby="scouting-title">
+      <aside class="project-meta">
+        <p class="eyebrow">03 / Industry</p><p>Sevilla FC · Technology Department</p><p>Apr – Jun 2026</p>
+      </aside>
+      <div class="prose">
+        <h2 id="scouting-title">Conversational football scouting</h2>
+        <p>During my Data &amp; AI Engineering internship at Sevilla FC, I built a scouting assistant for natural-language exploration of football performance and market data, using the conversational BI framework developed within The AI Alliance.</p>
+        <h3>My contribution</h3>
+        <p>I implemented player search, similarity analysis and rankings. Requests were connected to Azure SQL through entity disambiguation, reusable queries and explicit handling of missing data and unsupported filters.</p>
+        <ul class="tags" aria-label="Topics"><li>Azure SQL</li><li>AI engineering</li><li>Sports analytics</li></ul>
+      </div>
+    </article>
+    <article class="project-detail" id="real-estate" aria-labelledby="real-estate-title">
+      <aside class="project-meta">
+        <p class="eyebrow">04 / Industry</p><p>Keller Williams GSI</p><p>Jul – Nov 2025</p>
+      </aside>
+      <div class="prose">
+        <h2 id="real-estate-title">Agent workflows for real estate</h2>
+        <p>As a Data &amp; AI Engineer at Keller Williams GSI, I developed Python agent workflows to identify real-estate opportunities and match clients with suitable properties.</p>
+        <ul class="tags" aria-label="Topics"><li>Python</li><li>LangChain</li><li>LangGraph</li><li>FastMCP</li></ul>
+      </div>
+    </article>
+    <article class="project-detail" id="cauchy" aria-labelledby="cauchy-title">
+      <aside class="project-meta">
+        <p class="eyebrow">05 / Formal verification</p><p>University of Warwick</p><p>MA4N1 · Group project</p>
+      </aside>
+      <div class="prose">
+        <h2 id="cauchy-title">Cauchy's theorem in Lean</h2>
+        <p>A collaborative formal proof of Cauchy's theorem on a triangle using Goursat's method, built in Lean 4 on top of Mathlib.</p>
+        <p>The project develops definitions of paths, path integrals and triangles, alongside a fundamental theorem of calculus for complex path integrals. I contributed as part of the group; the repository contains the team's implementation.</p>
+        <ul class="tags" aria-label="Topics"><li>Lean 4</li><li>Mathlib</li><li>Complex analysis</li></ul>
+        <a class="detail-link" href="https://github.com/juanan27/MA4N1">View source on GitHub <span aria-hidden="true">↗</span></a>
+      </div>
+    </article>
+    <article class="project-detail" id="lean-course" aria-labelledby="lean-title">
+      <aside class="project-meta">
+        <p class="eyebrow">06 / Formal verification</p><p>University of Bonn</p><p>Collaborative project · 2024/25</p>
+      </aside>
+      <div class="prose">
+        <h2 id="lean-title">Winding numbers of complex curves</h2>
+        <p>Collaborative work on constructing the winding number of complex curves in Lean 4, as part of my mathematical formalisation work in Bonn.</p>
+        <ul class="tags" aria-label="Topics"><li>Lean 4</li><li>Mathlib</li><li>Complex analysis</li></ul>
+        <a class="detail-link" href="https://github.com/juanan27/LeanCourse24/tree/master/LeanCourse/ProjectWinding">View source on GitHub <span aria-hidden="true">↗</span></a>
+      </div>
+    </article>
+
+  </main>
+  <footer class="site-footer container">
+    <p>© <span data-year>2026</span> Juan Antonio Montalbán Vidal</p>
+    <div class="footer-links">
+      <a href="mailto:juananmv2013@gmail.com">Email <span aria-hidden="true">↗</span></a>
+      <a href="https://github.com/juanan27">GitHub <span aria-hidden="true">↗</span></a>
+    </div>
+  </footer>
+</body>
+</html>
