@@ -1,4 +1,4 @@
-# juamonvid.github.io
+# juanan27.github.io
 
 Personal website of **Juan Antonio Montalbán Vidal**, using the name **juamonvid**.
 Static HTML, CSS and a small JavaScript file. No build step or dependencies.
@@ -28,25 +28,22 @@ python -m http.server 8000 --bind 127.0.0.1
 
 Open <http://127.0.0.1:8000>. Stop the server with Ctrl+C.
 
-## GitHub Pages and the repository name
+## GitHub Pages
 
-The repository is currently:
-<https://github.com/juanan27/juamonvid.github.io>
+Website: <https://juanan27.github.io/>
 
-The GitHub account name is still `juanan27`. Renaming only the repository does
-not create `https://juamonvid.github.io/`.
+Repository: <https://github.com/juanan27/juanan27.github.io>
 
-With the current names and no custom domain, the project-site address is:
-<https://juanan27.github.io/juamonvid.github.io/>
+The GitHub username remains `juanan27`. The repository name matches that
+username so GitHub Pages serves the site at the domain root. The visible
+site identity remains **Juan Antonio Montalbán Vidal / juamonvid**.
 
-To use `https://juamonvid.github.io/`, the account must also be named
-`juamonvid`. After an account rename, update the Git remote and profile/project
-links. Keep the repository name `juamonvid.github.io`.
+The previous repository name was `juamonvid.github.io`. Use the current
+repository URL for Git remotes and the root website URL when sharing the site.
 
 In the repository's **Settings → Pages**, select **Deploy from a branch**,
-then **main** and **/(root)**. These settings have not been changed by the
-local redesign. The deployment must be enabled and successful before either
-address can be treated as live.
+then **main** and **/(root)**. Pushes to `main` publish the static HTML files
+and assets directly; no build dependencies are required.
 
 See [GitHub Pages documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages).
 
